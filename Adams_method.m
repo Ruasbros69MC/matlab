@@ -27,5 +27,6 @@ end
 plot(x,y,'b*')
 hold on 
 u = eval(dsolve('Dy = 1+y^2', 'y(0)=0','x'));
+disp(u)
 plot(x,y,'r')
 end
