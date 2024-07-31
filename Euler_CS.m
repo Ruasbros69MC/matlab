@@ -8,4 +8,5 @@ for i=2:n
     y(i) = y(i-1) +h*f(x(i-1), y(i-1));
 disp(y(i))
 end
+plot(x,y,'b--')
 end
